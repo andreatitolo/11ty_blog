@@ -18,7 +18,7 @@
       default-src 'self' https://*.archaeoramblings.com;
       style-src 'self' https://*.archaeoramblings.com 'unsafe-inline';
       img-src 'self' https://*.archaeoramblings.com;
-      script-src 'self' https://*.archaeoramblings.com 'unsafe-inline';
+      script-src 'self' https://*.archaeoramblings.com;
       frame-src 'self' https://*.archaeoramblings.com;
 	  connect-src 'self' https://*.archaeoramblings.com;
 	  base-uri 'self' https://*.archaeoramblings.com;
