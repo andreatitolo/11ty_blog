@@ -24,7 +24,7 @@ I just got access to Diablo IV as well, which I'm really looking forward to play
 
 ## Watching
 
-I am actively watching Silo, which started slowly but now I am really enjoying it (and the slow pace of a weekly episode). Less demanding but still highly enjoyable are Star Wars Visions (Season 2) and Vinland Saga (Season 2).
+I am actively watching Silo, which started slowly but now I am really enjoying it (and the slow pace of a weekly episode). Less demanding but still highly enjoyable are Star Wars Visions (Season 2) and Vinland Saga (Season 2). I put on hold Mr. Robot, but I plan to restart watching it soon.
 
 ## Learning
 

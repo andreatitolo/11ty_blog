@@ -56,3 +56,7 @@ As many people of my age, I tried most social networks. It was a good ride at th
 - [Now](/now): what I am focusing on at this point in my life.
 - [Uses](/uses): hardware and software I use every day.
 - [Links](/links): blogs I like to read and websites I generally like.
+
+# More about this blog
+
+- [Credits](/credits): Inspirations for the site, stats and info about it and privacy/copyright.
