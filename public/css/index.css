@@ -1,12 +1,10 @@
 /* TODO */
 
 /*
-style links differently? reddish
 add background image (whole body or footer/header only?
 header with eleventy navigation
 footer with custom elements and rss
 add favicon
-links are a bit hard to see
 notes as random thoughts - new collection
 uses
 links
@@ -32,7 +30,7 @@ links
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
+	--text-color-link-active: #cc0472;
 	--text-color-link-visited: #17050F;
 
 	--syntax-tab-size: 2;
@@ -114,6 +112,8 @@ li {
 
 a[href] {
 	color: var(--text-color-link);
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
 }
 a[href]:visited {
 	color: var(--text-color-link-visited);
