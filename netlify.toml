@@ -15,14 +15,14 @@
       preload
     '''
     Content-Security-Policy = '''
-      default-src 'self';
-      style-src 'self';
-      img-src 'self';
-      script-src 'self';
-      frame-src 'self';
-	  connect-src 'self';
-	  base-uri 'self';
-	  form-action 'self'
+      default-src 'self' https://*.archaeoramblings.com;
+      style-src 'self' https://*.archaeoramblings.com;
+      img-src 'self' https://*.archaeoramblings.com;
+      script-src 'self' https://*.archaeoramblings.com;
+      frame-src 'self' https://*.archaeoramblings.com;
+	  connect-src 'self' https://*.archaeoramblings.com;
+	  base-uri 'self' https://*.archaeoramblings.com;
+	  form-action 'self' https://*.archaeoramblings.com
     '''
     Permissions-Policy = '''
       accelerometer=(none),
