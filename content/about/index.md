@@ -59,4 +59,6 @@ As many people of my age, I tried most social networks. It was a good ride at th
 
 # More about this blog
 
-- [Credits](/credits): Inspirations for the site, stats and info about it and privacy/copyright.
+- [Credits](/credits): Inspirations for the site, stats and info.
+- [Site info](/credits/#site): stats and details about the site.
+- [Privacy and Copyright](/credits/#privacy): privacy notice and copyright.
