@@ -2,6 +2,13 @@
 	publish = "_site"
 	command = "npm run build"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+
 [[plugins]]
 
 	# Opt-in to the Netlify Lighthouse plugin (choose one):
@@ -22,18 +29,3 @@
 
 	[plugins.inputs]
 		output_path = "reports/lighthouse/index.html"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "deny"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "no-referrer"
-    Content-Security-Policy = '''
-      default-src 'self';
-      style-src 'self';
-      img-src 'self';
-      script-src 'self';
-      frame-src 'self';
-    '''
