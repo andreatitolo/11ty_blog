@@ -1,11 +1,11 @@
 module.exports = {
 	title: "Archaeoramblings",
-	url: "https://example.com/",
+	url: "https://archaeoramblings.com/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "Just random stuff from a random archaeologist",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "Andrea Titolo",
+		email: "titoloandrea@ik.me",
+		url: "https://archaeoramblings.com/about/"
 	}
 }

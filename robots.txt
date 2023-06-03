@@ -1,0 +1,10 @@
+User-Agent: ChatGPT-User
+User-Agent: AdsBot-Google
+User-Agent: Mediapartners-Google
+User-Agent: adidxbot
+Disallow: /
+
+User-Agent: Googlebot
+Disallow: /links/
+
+Sitemap: archaeoramblings.com/sitemap.xml
