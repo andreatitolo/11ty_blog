@@ -121,7 +121,7 @@ a[href]:active {
 
 main {
 	/* padding: 1rem; */
-	padding: 2rem 0;
+	padding: 4rem 0;
 }
 main :first-child {
 	margin-top: 0;
@@ -192,8 +192,8 @@ body > header:after {
 body > footer {
     font-size: 1.15rem;
     border-top: 1px dashed var(--color-gray-20);
-    margin-top: 1.5rem;
-    padding: 1.5rem 1rem;
+    /* margin-top: 1.5rem; */
+	padding-top: 1.5rem;
 	padding-bottom: 6rem
 }
 
@@ -217,17 +217,21 @@ hr {
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	column-gap: var(--navspacer-small);
+	column-gap: var(--navspacer-large);
 }
 .nav-item {
 	display: inline-block;
-	margin-right: 1em;
+	/* margin-right: 1em; */
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
 }
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
+}
+
+ul li {
+	line-height: 2;
 }
 
 /* Posts list */
