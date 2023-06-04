@@ -4,7 +4,7 @@ User-Agent: Mediapartners-Google
 User-Agent: adidxbot
 Disallow: /
 
-User-Agent: Googlebot
+User-Agent: *
 Disallow: /links/
 
 Sitemap: https://archaeoramblings.com/sitemap.xml
