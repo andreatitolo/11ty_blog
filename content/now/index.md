@@ -1,8 +1,6 @@
 ---
 layout: layouts/base.njk
-eleventyNavigation:
-  key: Now
-  order: 3
+eleventyExcludeFromCollections: true
 ---
 
 # Now
