@@ -16,19 +16,31 @@ I took huge inspirations for the style and general philosophy behind this site f
 
 As for eleventy itself, [Kevin Powell's video](https://www.youtube.com/watch?v=4wD00RT6d-g) was probably the most useful thing I had while approaching this SSG for the first time, together with [Jaydan Urwin's Eleventy Crash Course](https://www.youtube.com/playlist?list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW). Other super helpful examples I had were those gathered from [The 11ty Bundle](https://11tybundle.dev/).
 
-## Site
+# Site
 
-Built with Eleventy 2.0.1. Template language used: Nunjucks. Posts and pages language: Markdown.
+Built with **Eleventy {{ eleventy.version }}**.
 
 ## Code
 
 - Markdown
 - Nunjucks
-- HTML
-- CSS
+- HTML ([Validated](https://validator.w3.org/nu/?doc=https://www.archaeoramblings.com/))
+- CSS ([Validated](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fwww.archaeoramblings.com&usermedium=all&vextwarning=&warning=1))
 - Javascript
 - [Code Repository on Github](https://github.com/andreatitolo/11ty_blog)
 - Hosted on Netlify
+
+## Site sustainability
+
+- Homepage loads in 0.3 seconds and weights less than 20kb (uncompressed).
+- Site source code is 90kb.
+- 0.00g of CO2 [produced every time someone visits this web page](https://www.websitecarbon.com/website/archaeoramblings-com/).
+- 100 score on [Ecograder](https://ecograder.com/report/bz66KdfL3waTP0p2FHFDungb).
+
+## Accessibility
+
+- Page content and the entire website is accessible with javascript turned off.
+- [Wave Report](https://wave.webaim.org/report#/https://www.archaeoramblings.com/)
 
 ## Privacy
 
@@ -38,4 +50,9 @@ I don't collect any personal data and there is no analytics on this website, nor
 
 Content of this website is under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
+<a href="https://nonbot.org/pledged/view/99536763-fcd6-4150-96b6-2203d7ee9b5f" target="_blank">
+	<img style="height:128px;margin-top:10px;margin-bottom:10px;" src="https://nonbot.org/images/nonbot_pledged_logo.svg" alt="Human-made Content">
+</a>
 
+
+_<p class="smaller">Last update: {{ page.date | htmlDateString }}.</p>_
