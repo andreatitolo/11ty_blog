@@ -10,7 +10,7 @@ Most of the updates to the site are done using VSCodium for basically everything
 
 ## Inspirations and thanks
 
-I took huge inspirations for the style and general philosophy behind this site from [Simone Silvestroni](https://simonesilvestroni.com/) and his [Minutes to Midnight website](https://minutestomidnight.co.uk). If you go to the latter you will see many similarities indeed. In general Simone's blog were an inspiration both for the design of this site and the ideas I will try to uphold while improving my blog.
+I took huge inspirations for the style and general philosophy behind this site from [Simone Silvestroni](https://simonesilvestroni.com/) and his [Minutes to Midnight website](https://minutestomidnight.co.uk). If you go to the latter you will see many similarities indeed (this page is almost identical, but I really liked how it was layed out by Simone). In general Simone's blog were an inspiration both for the design of this site and the ideas I will try to uphold while improving my blog.
 
 [Silvia Maggi](https://silviamaggidesign.com/about/), [Aleksandr Hovhannisyan](https://www.aleksandrhovhannisyan.com/about/), and [Jan Boddez](https://jan.boddez.net/) for some design inspiration and actual content ideas for presentation pages.
 
@@ -32,6 +32,7 @@ Built with **Eleventy {{ eleventy.version }}**.
 
 ## Site sustainability
 
+- [Lighthouse Report](https://pagespeed.web.dev/analysis/https-www-archaeoramblings-com/9mnaxe13e8?form_factor=desktop)
 - Homepage loads in 0.3 seconds and weights less than 20kb (uncompressed).
 - Site source code is 90kb.
 - 0.00g of CO2 [produced every time someone visits this web page](https://www.websitecarbon.com/website/archaeoramblings-com/).
@@ -44,7 +45,7 @@ Built with **Eleventy {{ eleventy.version }}**.
 
 ## Privacy
 
-I don't collect any personal data and there is no analytics on this website, nor ads, tracking or similar. A content security policy is planned asap.
+I don't collect any personal data and there is no analytics on this website, nor ads, tracking or similar. As for CSP and securityheaders, a [Security Headers Report is available](https://securityheaders.com/?q=www.archaeoramblings.com&followRedirects=on) (**Score: A**).
 
 ## Copyright
 

@@ -45,7 +45,7 @@ For this reason, this site is highly susceptible to change as I learn new stuff 
 
 # RSS
 
-You can follow the blog using your preferred rss feed by copying [the feed link](/feed/feed.xml).
+You can follow the blog using your preferred rss feed reader by copying [the feed link](/feed/feed.xml).
 
 # Social
 
