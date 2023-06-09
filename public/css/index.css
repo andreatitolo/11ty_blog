@@ -1,19 +1,7 @@
-/* TODO */
-
-/*
-add background image (whole body or footer/header only?
-header with eleventy navigation
-footer with custom elements and rss
-add favicon
-notes as random thoughts - new collection
-uses
-links
-*/
-
-
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
+	/* --font-family: Atkinson Hyperlegible */
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 	--navspacer-large: 2rem;
 	--navspacer-small: 0.9rem;
