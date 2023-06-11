@@ -1,7 +1,7 @@
 ---
 title: Hello World
 description: An Introductory post to the blog
-date: Last Modified
+date: 2023-06-04
 draft: false
 tags:
   - personal
