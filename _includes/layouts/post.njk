@@ -14,7 +14,9 @@ layout: layouts/base.njk
 	{%- endfor %}
 </ul>
 
+<article>
 {{ content | safe }}
+
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
@@ -26,3 +28,10 @@ layout: layouts/base.njk
 </ul>
 {%- endif %}
 {%- endif %}
+
+ {% if modified %}
+ <p class="small"><i>Last updated: {{ modified | htmlDateString }}</i></p>
+ {% else %}
+ &nbsp;
+{% endif %}
+</article>
