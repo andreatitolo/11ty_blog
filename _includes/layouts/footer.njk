@@ -2,12 +2,12 @@
     <nav>
         <h2 class="visually-hidden">Bottom level navigation menu</h2>
         <ul class="nav">
-            <li class="nav-item"><a href="/now">Now</a></li>
-            <li class="nav-item"><a href="/links">Links</a></li>
+            <li class="nav-item"><a href="/now" {% if '/now' in page.url %} aria-current="page"{% endif %}>Now</a></li>
+            <li class="nav-item"><a href="/links"  {% if '/links' in page.url %} aria-current="page"{% endif %}>Links</a></li>
             <li class="nav-item"><a href="/sitemap.xml">Sitemap</a></li>
-            <li class="nav-item"><a href="/uses">Uses</a></li>
-            <li class="nav-item"><a href="/credits">Credits</a></li>
-            <li class="nav-item"><a href="/tags">Tags</a></li>
+            <li class="nav-item"><a href="/uses" {% if '/uses' in page.url %} aria-current="page"{% endif %}>Uses</a></li>
+            <li class="nav-item"><a href="/credits" {% if '/credits' in page.url %} aria-current="page"{% endif %}>Credits</a></li>
+            <li class="nav-item"><a href="/tags" {% if '/tags' in page.url %} aria-current="page"{% endif %}>Tags</a></li>
             <li class="nav-item"><a href="/feed/feed.xml">RSS</a></li>
         </ul>
     </nav>
