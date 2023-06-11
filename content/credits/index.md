@@ -25,7 +25,7 @@ Built with **Eleventy {{ eleventy.version }}**.
 - Markdown
 - Nunjucks
 - HTML ([Validated](https://validator.w3.org/nu/?doc=https://www.archaeoramblings.com/))
-- CSS ([Validated](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fwww.archaeoramblings.com&usermedium=all&vextwarning=&warning=1))
+- CSS ([Validated](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fwww.archaeoramblings.com&usermedium=all&vextwarning=&warning=1) - inspired by [Simple CSS](https://simplecss.org/))
 - Javascript
 - [Code Repository on Github](https://github.com/andreatitolo/11ty_blog)
 - Hosted on Netlify
@@ -33,8 +33,8 @@ Built with **Eleventy {{ eleventy.version }}**.
 ## Site sustainability
 
 - [Lighthouse Report](https://pagespeed.web.dev/analysis/https-www-archaeoramblings-com/9mnaxe13e8?form_factor=desktop)
-- Homepage loads in 0.3 seconds and weights less than 20kb (uncompressed).
-- Site source code is 90kb.
+- Homepage loads in 0.8 seconds and weights less than 20kb (uncompressed).
+- Site uncompressed size is 18.7kb.
 - 0.00g of CO2 [produced every time someone visits this web page](https://www.websitecarbon.com/website/archaeoramblings-com/).
 - 100 score on [Ecograder](https://ecograder.com/report/bz66KdfL3waTP0p2FHFDungb).
 
@@ -56,4 +56,4 @@ Content of this website is under the [Creative Commons Attribution-ShareAlike 4.
 </a>
 
 
-_<p class="smaller">Last update: {{ page.date | htmlDateString }}.</p>_
+_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_
