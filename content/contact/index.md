@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
 # Contact
 
-Easiest and quickest way of communication is (still) [the email](mailto:titoloandrea@ik.me). For secure communication (PGP key) and other links you can see my [Keyoxide profile](https://keyoxide.org/hkp/0CD517A1F847FBC4F8E560A0F489AA7383618137).
+Easiest and quickest way of communication is (still) [the email](mailto:298mtxjd@anonaddy.me). For secure communication (PGP key) and other links you can see my [Keyoxide profile](https://keyoxide.org/hkp/0CD517A1F847FBC4F8E560A0F489AA7383618137).
 
 ## Elsewhere
 
