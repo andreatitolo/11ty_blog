@@ -17,16 +17,15 @@
   --border: #898EA4;
   --accent: #0d47a1;
   --code: #d81b60;
-  --pink: #f495c6;
-  --light-blue: #95d0f4;
-  --blue: #0293ee;
-  --preformatted: #444;
+  --pink: #f495c6;--preformatted: #444;
   --marked: #ffdd33;
   --disabled: #efefef;
   --color-gray-50: #C0C0C0;
 	--text-color-link: #082840;
 	--text-color-link-active: #cc0472;
 	--text-color-link-visited: #17050F;
+  --text-color-link-hover: #95d0f4;
+  --text-color-link-hover-postlink: #0293ee;
 
   /* Others */
 	--navspacer-large: 2rem;
@@ -46,6 +45,10 @@
     --code: #f06292;
     --preformatted: #ccc;
     --disabled: #111;
+    --text-color-link-hover: #95d0f4;
+    --text-color-link: #67ccff;
+    --text-color-link-hover-postlink: #cee9f6;
+    --text-color-link-visited: #ffffff;
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,
@@ -200,7 +203,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  background: var(--light-blue);
+  background: var(--text-color-link-hover);
   color: var(--text-dark) /* !important; */
 }
 
@@ -751,7 +754,7 @@ dialog::backdrop {
 }
 .postlist-link:hover {
   background: none;
-  color: var(--blue);
+  color: var(--text-color-link-hover-postlink);
 }
 .postlist-item-active .postlist-link {
 	font-weight: bold;
