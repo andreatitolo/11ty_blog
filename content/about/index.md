@@ -10,6 +10,8 @@ _Note: this page, as most of the website, is still a work in progress._
 
 I am Andrea (he/him), an archaeologist with a lot (maybe too many) interests. 
 
+{% image "./about.webp", "A half-body picture of me on a bridge. Water underneath and colored houses in the background", "img-centered", "100vw" %}
+
 ## Work
 
 I currently work at the [University of Turin](https://www.unito.it) as a researcher (actually post-doctoral research associate, but I'll spare you all the weird namings we have for people working in academia). Here I do computer-based work inside a larger project. My job is to take ancient-settlement data (location and size, mostly), and do spatial and quantitative/statistical analyses on them. In the past (and currently as well) I also did remote-sensing work, which means gathering and analyzing satellite images to inspect the archaeological landscape. In particular, I worked a lot with declassified satellite images. I am a landscape archaeologist, which means my interest go beyond a single archaeological site, to inspect larger areas and regions with their elements (the "archaeological landscape"). Enough with the work, for that there is my [academic website](https://andreatitolo.com).
