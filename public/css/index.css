@@ -21,11 +21,11 @@
   --marked: #ffdd33;
   --disabled: #efefef;
   --color-gray-50: #C0C0C0;
-	--text-color-link: #082840;
+	--text-color-link: #000000;
 	--text-color-link-active: #cc0472;
 	--text-color-link-visited: #17050F;
   --text-color-link-hover: #95d0f4;
-  --text-color-link-hover-postlink: #0293ee;
+  --text-color-postlink-hover: #0293ee;
 
   /* Others */
 	--navspacer-large: 2rem;
@@ -47,7 +47,7 @@
     --disabled: #111;
     --text-color-link-hover: #95d0f4;
     --text-color-link: #67ccff;
-    --text-color-link-hover-postlink: #cee9f6;
+    --text-color-postlink-hover: #cee9f6;
     --text-color-link-visited: #ffffff;
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
@@ -754,7 +754,7 @@ dialog::backdrop {
 }
 .postlist-link:hover {
   background: none;
-  color: var(--text-color-link-hover-postlink);
+  color: var(--text-color-postlink-hover);
 }
 .postlist-item-active .postlist-link {
 	font-weight: bold;
