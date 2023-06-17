@@ -6,8 +6,6 @@ eleventyNavigation:
 ---
 # About
 
-_Note: this page, as most of the website, is still a work in progress._
-
 I am Andrea (he/him), an archaeologist with a lot (maybe too many) interests. 
 
 {% image "./about.webp", "A half-body picture of me on a bridge. Water underneath and colored houses in the background", "img-centered", "100vw" %}
@@ -57,10 +55,10 @@ As many people of my age, I tried most social networks. It was a good ride at th
 
 - [Now](/now): what I am focusing on at this point in my life.
 - [Uses](/uses): hardware and software I use every day.
-- [Links](/links): blogs I like to read and websites I generally like.
+- [Blogroll](/links): blogs I like to read and websites I generally like.
 
 # More about this blog
 
-- [Credits](/credits): Inspirations for the site, stats and info.
-- [Site info](/credits/#site): stats and details about the site.
-- [Privacy and Copyright](/credits/#privacy): privacy notice and copyright.
+- [Credits](/credits): inspirations and resources used for the site.
+- [Site info](/metrics/): stats and details about the site.
+- [Privacy and Copyright](/privacy/): privacy notice and copyright.
