@@ -2,14 +2,15 @@
 layout: layouts/home.njk
 ---
 
-# Site metrics
+# Colophon
 
-I'm trying to keep this website as lightweight as possible, with accessibility, usability, and sustainability in mind. There is still room for improvement, especially on my knowledge of things side, but for now I am happy with the results. Below there are some information and metricts regarding the site that might be of interest.
+I'm trying to keep this website as lightweight as possible, with accessibility, usability, and sustainability in mind. There is still room for improvement, especially on my knowledge of things side, but for now I am happy with the results. Below there are some information and metrics regarding the site that might be of interest.
 
 ## Site info
 
 Built with **Eleventy {{ eleventy.version }}**. Most of the updates to the site are done using VSCodium for basically everything.
 
+The design of the website is mostly based on [eleventy-base-blog v8](https://github.com/11ty/eleventy-base-blog) with other inspiration from people mentioned in the [changeredits](/credits/).
 
 ## Code
 
@@ -22,7 +23,7 @@ This site uses the following:
 - [Code Repository on Github](https://github.com/andreatitolo/11ty_blog)
 - Hosted on Netlify
 
-## Site sustainability
+## Sustainability
 
 - [Lighthouse Report](https://pagespeed.web.dev/analysis/https-www-archaeoramblings-com/9mnaxe13e8?form_factor=desktop)
 - Homepage loads in 0.8 seconds and weights less than 20kb (uncompressed).

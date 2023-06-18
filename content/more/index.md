@@ -12,5 +12,5 @@ eleventyNavigation:
 - [Blogroll](/links/)
 - [Disclaimer](/disclaimer/)
 - [Privacy & License](/privacy/)
-- [Site info](/metrics/)
+- [Site info - Colophon](/metrics/)
 - Follow the blog - [RSS](/feed/feed.xml) 
