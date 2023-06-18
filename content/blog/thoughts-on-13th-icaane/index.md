@@ -2,7 +2,7 @@
 title: Thoughts on the 13th ICAANE
 description: Some scattered thoughts about the last major conference for west asian archaeologists.
 date: 2023-06-11
-modified: 2023-06-12
+modified: 2023-06-18
 draft: false
 tags:
   - academia
@@ -12,7 +12,7 @@ tags:
 
 I recently read [a recent blog post](https://itsmoreofacomment.com/2023/05/26/the-13th-icaane-in-copenhagen/) by Sebastian Hageneuer and decided to do a similar thing with my impression on the latest ICAANE conference.
 
-{% image "./13th_icaane_copenhagen.webp", "Houses in Copenhagen. A washed-out red house on the left and a black house on the right. A person on a bike in front of the first house", "img-centered", "100vw" %}
+{% image "./13th_icaane_copenhagen.webp", "A red house on the left and a black house on the right. A cyclist in front of the first house", "img-centered", "100vw" %}
 
 # What is the ICAANE?
 

@@ -8,7 +8,7 @@ eleventyNavigation:
 
 I am Andrea (he/him), an archaeologist with a lot (maybe too many) interests. 
 
-{% image "./about.webp", "A half-body picture of me on a bridge. Water underneath and colored houses in the background", "img-centered", "100vw" %}
+{% image "./about.webp", "A half-body picture of me on a bridge. Colored houses in the background", "img-centered", "100vw" %}
 
 ## Work
 
