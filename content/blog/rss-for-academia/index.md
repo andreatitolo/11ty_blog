@@ -2,7 +2,7 @@
 title: Use RSS! (For academic papers)
 description: Just my two cents on using RSS for receiving newly published papers
 date: 2023-06-22
-draft: true
+draft: false
 tags:
   - academia
   - web
