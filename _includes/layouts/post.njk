@@ -17,6 +17,10 @@ layout: layouts/base.njk
 <article>
 {{ content | safe }}
 
+{% if modified %}
+ <p class="small"><i>Last updated: {{ modified | htmlDateString }}</i></p>
+ {% else %}
+{% endif %}
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
@@ -29,8 +33,8 @@ layout: layouts/base.njk
 {%- endif %}
 {%- endif %}
 
- {% if modified %}
- <p class="small"><i>Last updated: {{ modified | htmlDateString }}</i></p>
- {% else %}
-{% endif %}
 </article>
+
+<div class="post-footer">
+	<a class="button reply button-shadow" href="mailto:{{ metadata.author.email }}">Reply by email	</a>
+</div>
