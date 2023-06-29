@@ -77,7 +77,7 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-		return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+		return (tags || []).filter(tag => ["all", "nav", "post", "posts", "header", "footer"].indexOf(tag) === -1);
 	});
 
 	eleventyConfig.addFilter("cssmin", function(code) {

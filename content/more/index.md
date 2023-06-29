@@ -3,6 +3,7 @@ layout: layouts/base.njk
 eleventyNavigation:
   key: More..
   order: 7
+tags: header
 ---
 
 # More Links

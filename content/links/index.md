@@ -1,5 +1,9 @@
 ---
 layout: layouts/home.njk
+eleventyNavigation:
+  key: Blogroll
+  order: 3
+tags: footer
 modified: 2023-06-18
 ---
 # Blogroll

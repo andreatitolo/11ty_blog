@@ -3,6 +3,7 @@ layout: layouts/base.njk
 eleventyNavigation:
   key: Contact
   order: 6
+tags: header
 ---
 # Contact
 

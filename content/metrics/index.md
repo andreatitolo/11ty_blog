@@ -1,5 +1,9 @@
 ---
 layout: layouts/home.njk
+eleventyNavigation:
+  key: Colophon
+  order: 4
+tags: footer
 ---
 
 # Colophon

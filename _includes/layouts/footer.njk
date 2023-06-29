@@ -2,12 +2,9 @@
     <nav>
         <h2 class="visually-hidden">Bottom level navigation menu</h2>
         <ul class="nav">
-            <li class="nav-item"><a href="/now">Now</a></li>
-            <li class="nav-item"><a href="/uses">Uses</a></li>
-            <li class="nav-item"><a href="/links">Blogroll</a></li>
-            <li class="nav-item"><a href="/metrics">Colophon</a></li>
-            <li class="nav-item"><a href="/credits">Credits</a></li>
-            <li class="nav-item"><a href="/tags">Tags</a></li>
+        {%- for entry in collections.footer | eleventyNavigation %}
+            <li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+        {%- endfor %}
             <li class="nav-item"><a href="/feed/feed.xml">RSS</a></li>
         </ul>
     </nav>

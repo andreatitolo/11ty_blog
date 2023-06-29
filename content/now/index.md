@@ -1,6 +1,9 @@
 ---
 layout: layouts/base.njk
-eleventyExcludeFromCollections: true
+eleventyNavigation:
+  key: Now
+  order: 1
+tags: footer
 ---
 
 # Now

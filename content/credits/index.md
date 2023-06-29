@@ -1,6 +1,9 @@
 ---
 layout: layouts/base.njk
-eleventyExcludeFromCollections: true
+eleventyNavigation:
+  key: Credits
+  order: 5
+tags: footer
 ---
 # Credits
 
