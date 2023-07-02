@@ -69,6 +69,12 @@ Now it should look better with a rounded white background (the laziest solution,
 
 {% image "header_new.webp", "desc", "img-centered", "100vw" %}
 
+## Meta
+
+Other minor miscellaneous changes
+- I updated the readme on the github repo.
+- Updated the license on the repo as well.
+
 ## Future tweaks
 
 There are other things I want to try in the future. For example, I don't really like the absence of a copy button on code blocks. However, for now, all the implementations I saw, are a bit beyond my current knowledge of javascript to implement them in a reliable way.
