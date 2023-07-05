@@ -43,6 +43,7 @@ Manually assembled PC:
 - [QGIS](https://qgis.org) - as main GIS program.
 - [Google Earth Engine](https://earthengine.google.com/) - as main remote sensing processing platform.
 - [RGEE](https://r-spatial.github.io/rgee/) - to use Google Earth Engine in R.
+- [Kart](https://kartproject.org/) - for versioning GIS data as if using git.
 
 ### Writing
 
@@ -96,6 +97,8 @@ Manually assembled PC:
 - [ImageMagick](https://imagemagick.org/) - to quickly convert and resize image from the command line.
 - [svgo](https://github.com/svg/svgo) - to quickly optimize svg from the command line.
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - to easily download online videos.
+- [Startpage](https://startpage.com) - as main search engine
+- [Librex](https://github.com/hnhx/librex/) - as backup search engine (using [this instance](https://search.ahwx.org))
 
 ### Management
 
