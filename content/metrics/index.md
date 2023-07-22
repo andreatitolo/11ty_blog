@@ -27,13 +27,21 @@ This site uses the following:
 - [Code Repository on Github](https://github.com/andreatitolo/11ty_blog)
 - Hosted on Netlify
 
+### Fonts and visuals
+
+- SVG logo
+- Fonts:
+  - [Humanist](https://github.com/system-fonts/modern-font-stacks#humanist) for body, header, and footer text.
+  - [Old Style](https://github.com/system-fonts/modern-font-stacks#old-style) for headers.
+  - [Monospace Code](https://github.com/system-fonts/modern-font-stacks#monospace-code) for code.
+
 ## Sustainability
 
-- [Lighthouse Report](https://pagespeed.web.dev/analysis/https-www-archaeoramblings-com/9mnaxe13e8?form_factor=desktop)
+- [Lighthouse Report](https://pagespeed.web.dev/analysis/https-www-archaeoramblings-com/6wpwy9vn6z?form_factor=desktop)
 - Homepage loads in 0.8 seconds and weights less than 20kb (uncompressed).
 - Site uncompressed size is 18.7kb.
 - 0.00g of CO2 [produced every time someone visits this web page](https://www.websitecarbon.com/website/archaeoramblings-com/).
-- 100 score on [Ecograder](https://ecograder.com/report/bz66KdfL3waTP0p2FHFDungb).
+- 100 score on [Ecograder](https://ecograder.com/report/uVJ0MKte3W5ZEqFZRqzyQyz9).
 
 ## Accessibility
 
