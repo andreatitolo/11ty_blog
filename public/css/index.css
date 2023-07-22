@@ -4,7 +4,7 @@
   /* Set sans-serif & mono fonts */
   --serif-font: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
   --sans-font: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --mono-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
   /* Default (light) theme */
   --bg: #fff;
@@ -16,7 +16,8 @@
   --border-light: #C0C0C0;
   --accent: #0d47a1;
   --code: #d81b60;
-  --pink: #f495c6;--preformatted: #444;
+  --pink: #f495c6;
+  --preformatted: #444;
   --marked: #ffdd33;
   --disabled: #efefef;
 	--text-color-link: #000000;
@@ -24,6 +25,8 @@
 	--text-color-link-visited: #17050F;
   --text-color-link-hover: #95d0f4;
   --text-color-postlink-hover: #0293ee;
+  --bg-pre: #272822;
+  --text-color-code-pre: #f8f8f2;
 
   /* Others */
 	--navspacer-large: 2rem;
@@ -546,12 +549,12 @@ pre {
   padding: 1rem 1.4rem;
   max-width: 100%;
   overflow: auto;
-  color: var(--preformatted);
+  background: var(--bg-pre);
 }
 
 /* Fix embedded code within pre */
 pre code {
-  color: var(--preformatted);
+  color: var(--text-color-code-pre);
   background: none;
   margin: 0;
   padding: 0;
