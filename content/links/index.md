@@ -14,6 +14,7 @@ This is a list of links to other blogs I find interesting to read or to follow, 
 
 - [Aral Balkan](https://ar.al)
 - [Archaeogaming](https://archaeogaming.com)
+- [Black Trowel Collective](https://blacktrowelcollective.wordpress.com/blog-2/)
 - [Brain Baking](https://brainbaking.com)
 - [Colleen Morgan](https://colleen-morgan.com)
 - [EFF Deeplinks Blog](https://www.eff.org/deeplinks)
