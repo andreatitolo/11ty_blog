@@ -1,8 +1,8 @@
 ---
 title: Jedi Survivor
 description: I completed Jedi survivor and I loved it.
-date: 2023-07-21
-draft: true
+date: 2023-07-22
+draft: false
 tags:
   - post
   - videogames
