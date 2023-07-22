@@ -3,7 +3,7 @@
 ::backdrop {
   /* Set sans-serif & mono fonts */
   --serif-font: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
-  --sans-font: system-ui, Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+  --sans-font: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
   /* Default (light) theme */
