@@ -2,9 +2,8 @@
 :root,
 ::backdrop {
   /* Set sans-serif & mono fonts */
-  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif;
+  --serif-font: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+  --sans-font: system-ui, Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
   /* Default (light) theme */
@@ -76,7 +75,7 @@ progress {
 
 html {
   /* Set the font globally */
-  font-family: var(--sans-font);
+  /* font-family: var(--sans-font); */
   scroll-behavior: smooth;
 }
 
@@ -98,6 +97,7 @@ body > * {
 }
 
 body > header {
+  font-family: var(--sans-font);
   /* background-color: var(--accent-bg); */
   border-bottom: 1px dashed var(--border-light);
   text-align: center;
@@ -117,10 +117,12 @@ body > header p {
 
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
+  font-family: var(--sans-font);
   padding-top: 2rem;
 }
 
 body > footer {
+  font-family: var(--sans-font);
   margin-top: 4rem;
   padding: 2rem 1rem 6rem 1rem;
   color: var(--text-light);
@@ -166,6 +168,11 @@ h1,
 h2,
 h3 {
   line-height: 1.1;
+}
+
+/* Serif fonts for headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif-font);
 }
 
 @media only screen and (max-width: 720px) {
@@ -550,6 +557,15 @@ pre code {
   padding: 0;
 }
 
+del {
+  background: #000;
+  color: #000;
+  text-decoration:none;
+}
+del:hover {
+  color: #fff;
+}
+
 /* Classes for notices */
 .notice {
   background: var(--accent-bg);
@@ -604,6 +620,7 @@ pre code {
 .postlist-link {
 	font-size: 1.1875em; /* 19px /16 */
 	font-weight: 700;
+  font-family: var(--serif-font);
 	flex-basis: calc(100% - 1.5rem);
 	padding-left: .25em;
 	padding-right: .5em;
