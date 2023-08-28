@@ -29,4 +29,4 @@ This might be a non-native speaker thing, but I always liked the word "ramble". 
 Honestly, I don't know. Definitely not consistency. I have some stuff I want to write down now and other things I have planned but about very different topics. I would like this place to be some sort of brain dump, where I write about things I do/did, side things about my work, and [things I am passionate about](/about#hobbies-and-interests). These includes videogames, computer stuff, archaeology, productivity, academia, open access, travels, etc.  
 I don't want this to be a regular or structured thing, as I think it will ruin the fun for me. 
 
-That's it for now, see you around and if you want to follow this blog, here is the [link to the rss feed](/feed/feed.xml).
+That's it for now, I will just leave the [link to the rss feed](/feed/feed.xml) here to follow the blog.
