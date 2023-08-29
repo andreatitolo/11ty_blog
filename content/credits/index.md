@@ -4,7 +4,11 @@ eleventyNavigation:
   key: Credits
   order: 5
 tags: footer
+date: Last Modified
 ---
+
+_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_
+
 # Credits
 
 This blog was created using the [eleventy-base-blog v8](https://github.com/11ty/eleventy-base-blog) as a starter template.

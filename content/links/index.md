@@ -4,8 +4,10 @@ eleventyNavigation:
   key: Blogroll
   order: 3
 tags: footer
-modified: 2023-06-18
+date: Last Modified
 ---
+_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_
+
 # Blogroll
 
 This is a list of links to other blogs I find interesting to read or to follow, or blogs for which I appreciate the design. For now the list is just alphabetical, but when I'll find the will to do it I'll add some descriptions and some sort of categorization.
@@ -18,6 +20,7 @@ This is a list of links to other blogs I find interesting to read or to follow, 
 - [Brain Baking](https://brainbaking.com)
 - [Colleen Morgan](https://colleen-morgan.com)
 - [EFF Deeplinks Blog](https://www.eff.org/deeplinks)
+- [Eric Murphy](https://ericmurphy.xyz/)
 - [Foss Academic](https://fossacademic.tech)
 - [Internet Archive Blog](https://blog.archive.org)
 - [It's more of a comment](https://itsmoreofacomment.com)
@@ -28,9 +31,3 @@ This is a list of links to other blogs I find interesting to read or to follow, 
 - [TorrentFreak](https://torrentfreak.com/)
 - [Ye Olde Blogroll](https://blogroll.org/)
 - [Zack's barely articulate rambles](https://blog.zackbatist.info)
-
-
- {% if modified %}
- <p class="small"><i>Last updated: {{ modified | htmlDateString }}</i></p>
- {% else %}
-{% endif %}

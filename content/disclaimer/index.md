@@ -1,6 +1,9 @@
 ---
 layout: layouts/home.njk
+date: Last Modified
 ---
+
+_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_
 
 # Disclaimer
 

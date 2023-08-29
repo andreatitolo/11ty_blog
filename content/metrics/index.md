@@ -4,7 +4,10 @@ eleventyNavigation:
   key: Colophon
   order: 4
 tags: footer
+date: Last Modified
 ---
+
+_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_
 
 # Colophon
 
@@ -14,7 +17,7 @@ I'm trying to keep this website as lightweight as possible, with accessibility, 
 
 Built with **Eleventy {{ eleventy.version }}**. Most of the updates to the site are done using VSCodium for basically everything.
 
-The design of the website is mostly based on [eleventy-base-blog v8](https://github.com/11ty/eleventy-base-blog) with other inspiration from people mentioned in the [changeredits](/credits/).
+The design of the website is mostly based on [eleventy-base-blog v8](https://github.com/11ty/eleventy-base-blog) with other inspiration from people mentioned in the [credits](/credits/).
 
 ## Code
 
@@ -34,6 +37,7 @@ This site uses the following:
   - [Humanist](https://github.com/system-fonts/modern-font-stacks#humanist) for body, header, and footer text.
   - [Old Style](https://github.com/system-fonts/modern-font-stacks#old-style) for headers.
   - [Monospace Code](https://github.com/system-fonts/modern-font-stacks#monospace-code) for code.
+  - As of 2023-08-29, this website uses the [Catppuccin palette](https://github.com/catppuccin/palette) palette, with some tweaks to improve legibility.
 
 ## Sustainability
 
@@ -47,5 +51,3 @@ This site uses the following:
 
 - Page content and the entire website is accessible with javascript turned off.
 - [Wave Report](https://wave.webaim.org/report#/https://www.archaeoramblings.com/)
-
-_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_

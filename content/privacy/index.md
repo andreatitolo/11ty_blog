@@ -1,6 +1,9 @@
 ---
 layout: layouts/home.njk
+date: Last Modified
 ---
+
+_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_
 
 # Privacy
 
@@ -11,7 +14,4 @@ This website [doesn't track you](https://themarkup.org/blacklight?url=archaeoram
 # Copyright
 
 Content of this website is under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
-
-_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_
-
 

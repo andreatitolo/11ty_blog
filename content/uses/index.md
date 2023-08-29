@@ -4,7 +4,11 @@ eleventyNavigation:
   key: Uses
   order: 2
 tags: footer
+date: Last Modified
 ---
+
+_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_
+
 # Uses
 
 List of hardware and software stuff I use on a daily basis. Mostly for my own present (and future) reference, but also for anyone curious.
@@ -78,6 +82,10 @@ Manually assembled PC:
 - [Codeberg](https://codeberg.org/) - for more personal stuff.
 - [Netlify](https://www.netlify.com/) - for website hosting.
 
+### Themes
+
+- [Catppuccin](https://github.com/catppuccin) for almost everything (this blog too).
+
 ### Utilities
 
 - [AltTab](https://alt-tab-macos.netlify.app/) - for windows-like switching between tabs on macOS.
@@ -147,7 +155,3 @@ Manually assembled PC:
 - [Strongbox](https://strongboxsafe.com/) - to manage my password using KeepassXC.
 - [2Do-txt](https://github.com/sodenn/2do-txt) - gui app for todo.txt.
 - [Mobius Sync](https://www.mobiussync.com/) - to use Syncthing in iOS.
-
-
-
-

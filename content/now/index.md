@@ -4,7 +4,10 @@ eleventyNavigation:
   key: Now
   order: 1
 tags: footer
+date: Last Modified
 ---
+
+_<p class="small">Last update: {{ page.date | htmlDateString }}.</p>_
 
 # Now
 
