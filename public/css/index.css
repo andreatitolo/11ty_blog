@@ -97,7 +97,7 @@ html {
 body {
   color: var(--text);
   background-color: var(--bg);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   display: grid;
   grid-template-columns: 1fr min(40rem, 90%) 1fr;
@@ -138,36 +138,36 @@ body > footer {
   margin-top: 4rem;
   padding: 2rem 1rem 6rem 1rem;
   color: var(--text-light);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   text-align: center;
   border-top: 1px dashed var(--border-light);
 }
 
 /* Format headers */
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin-top: 2rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-top: 2rem;
 }
 
 h4 {
-  font-size: 0.94rem;
+  font-size: 1.04rem;
 }
 
 h5 {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 
 h6 {
-  font-size: 0.45rem;
+  font-size: 0.55rem;
 }
 
 /* Prevent long strings from overflowing container */
@@ -379,7 +379,7 @@ aside, details, pre, progress {
 }
 
 aside {
-  font-size: 1rem;
+  font-size: 1.1rem;
   width: 30%;
   padding: 0 15px;
   margin-inline-start: 15px;
