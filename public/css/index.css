@@ -7,24 +7,25 @@
   --mono-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
   /* Default (light) theme */
-  --bg: #fff;
-  --accent-bg: #f5f7ff;
-  --text: #212121;
-  --text-light: #585858;
-  --text-dark: #000000;
-  --border: #898EA4;
-  --border-light: #C0C0C0;
-  --accent: #0d47a1;
-  --code: #d81b60;
-  --pink: #f495c6;
-  --preformatted: #444;
-  --marked: #ffdd33;
+  --bg: #eff1f5;
+  --accent-bg: #dce0e8;
+  --text: #4c4f69;
+  --text-light: #7c7f93;
+  --text-lighter: #8087a2;
+  --text-dark: #11111b;
+  --border: #6c7086;
+  --border-light: #bac2de;
+  --accent: #1e66f5;
+  --code: #d20f39;
+  --pink: #f4b8e4;
+  --preformatted: #232634;
+  --marked: #eed49f;
   --disabled: #efefef;
-	--text-color-link: #000000;
-	--text-color-link-active: #cc0472;
+	--text-color-link: #4c4f69;
+	--text-color-link-active: #d20f39;
 	--text-color-link-visited: #17050F;
-  --text-color-link-hover: #95d0f4;
-  --text-color-postlink-hover: #0293ee;
+  --text-color-link-hover: #89dceb;
+  --text-color-postlink-hover: #04a5e5;
   --bg-pre: #272822;
   --text-color-code-pre: #f8f8f2;
 
@@ -41,18 +42,28 @@
   :root,
   ::backdrop {
     color-scheme: dark;
-    --bg: #212121;
-    --accent-bg: #2b2b2b;
-    --text: #dcdcdc;
-    --text-light: #ababab;
-    --accent: #ffb300;
-    --code: #f06292;
-    --preformatted: #ccc;
+    --bg: #303446;
+    --accent-bg: #24273a;
+    --text: #c6d0f5;
+    --text-light: #cdd6f4;
+    --text-lighter: #e6e9ef;
+    --text-dark: #11111b;
+    --border: #6c7086;
+    --border-light: #9ca0b0;
+    --accent: #e5c890;
+    --code: #e78284;
+    --preformatted: #f4dbd6;
     --disabled: #111;
-    --text-color-link-hover: #95d0f4;
-    --text-color-link: #2291d5;
-    --text-color-postlink-hover: #cee9f6;
-    --text-color-link-visited: #ffffff;
+    --text-color-link: #8caaee;
+    --text-color-link-active: #e78284;
+    --text-color-link-visited: #99d1db;
+    --text-color-link-hover: #99d1db;
+    --text-color-postlink-hover: #99d1db;
+    --pink: #f2d5cf;
+    --preformatted: #232634;
+    --marked: #e5c890;
+    --bg-pre: #272822;
+    --text-color-code-pre: #f8f8f2;
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,
@@ -101,11 +112,9 @@ body > * {
 
 body > header {
   font-family: var(--sans-font);
-  /* background-color: var(--accent-bg); */
   border-bottom: 1px dashed var(--border-light);
   text-align: center;
   padding: 1rem 1rem;
-  /* grid-column: 1 / -1; */
 }
 
 body > header h1 {
@@ -499,7 +508,7 @@ figure {
 figcaption {
   text-align: center;
   font-size: 0.9rem;
-  color: var(--text-light);
+  color: var(--text-lighter);
   margin-bottom: 1rem;
 }
 
@@ -530,7 +539,6 @@ dt {
 /* Use mono font for code elements */
 code,
 pre,
-pre span,
 kbd,
 samp {
   font-family: var(--mono-font);
@@ -566,7 +574,7 @@ del {
   text-decoration:none;
 }
 del:hover {
-  color: #fff;
+  color: #c6d0f5;
 }
 
 /* Classes for notices */
@@ -630,6 +638,7 @@ del:hover {
 	text-underline-position: from-font;
 	text-underline-offset: 0;
 	text-decoration-thickness: 1px;
+  color: var(--text);
 }
 .postlist-link:hover {
   background: none;
@@ -673,7 +682,7 @@ a[href].header-anchor:hover {
 }
 a[href].header-anchor:focus,
 :hover > a[href].header-anchor {
-	color: #aaa;
+	color: var(--text);
 }
 
 /* Tags */
