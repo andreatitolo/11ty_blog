@@ -2,9 +2,9 @@
 layout: layouts/base.njk
 ---
 {# Only include the syntax highlighter CSS on blog posts #}
-{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
-{%- css %}{% include "public/css/prism.css" %}{%- endcss %}
+{%- css %}{% include "public/css/prism-catppuccin.css" %}{%- endcss %}
 <h1>{{ title }}</h1>
+<h3><i>{{ description }}</i></h3>
 
 <ul class="post-metadata">
 	<li>Posted on: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
