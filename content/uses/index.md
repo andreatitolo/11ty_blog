@@ -32,7 +32,7 @@ Manually assembled PC:
 
 ### Peripherals
 
-- [Logitech MX Master 3](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006556.html) - as mouse for work.
+- ~~[Logitech MX Master 3](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006556.html)~~ [Logitech MX Vertical](https://www.logitech.com/en/products/mice/mx-vertical-ergonomic-mouse.html) - as mouse for work.
 - [Logitech G305](https://www.logitechg.com/en-us/products/gaming-mice/g305-lightspeed-wireless-gaming-mouse.910-005280.html) - as mouse for gaming.
 - [Nuphy Air 75](https://nuphy.com/products/air75) - a main low profile mechanical keyboard.
 - [Sennheiser HD559](https://www.sennheiser-hearing.com/it-IT/p/hd-559/) - as headphones.
@@ -67,12 +67,12 @@ Manually assembled PC:
 ### Coding
 
 - [VSCodium](https://vscodium.com/) - as my main IDE.
-- [ITerm2](https://iterm2.com/) - as terminal emulator (JetBrains Mono as font).
-- [Z shell](https://www.zsh.org/) (+ Oh My Zsh and some plugins).
-- [Fig.io](https://fig.io/) - for interactive command suggestions.
+- ~~[ITerm2](https://iterm2.com/)~~ [Kitty](https://sw.kovidgoyal.net/kitty/) - as terminal emulator (with [Victor Mono Nerd Font](https://www.programmingfonts.org/#victor-mono)).
+- [Z shell](https://www.zsh.org/) (+ ~~Oh My Zsh~~ [Zap](https://github.com/zap-zsh/zap) as plugin manager for some plugins).
+- ~~[Fig.io](https://fig.io/) - for interactive command suggestions~~.
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) - to quickly open a terminal at a specific folder location.
 - [Homebrew](https://brew.sh/) - as my package manager.
-- [BBEdit](https://www.barebones.com/products/bbedit/) - as a quick text editor.
+- ~~[BBEdit](https://www.barebones.com/products/bbedit/)~~ [Sublime Text](https://www.sublimetext.com/) - as a quick text editor.
 - [Helix](https://helix-editor.com/) - as a quick terminal text editor
 - [R](https://www.r-project.org/) (in VSCodium) - as main coding language.
 
@@ -89,7 +89,8 @@ Manually assembled PC:
 ### Utilities
 
 - [AltTab](https://alt-tab-macos.netlify.app/) - for windows-like switching between tabs on macOS.
-- [KeepingYouAwake](https://keepingyouawake.app/) - prevent mac to go on sleep mode.
+- [KeepingYouAwake](https://keepingyouawake.app/) - prevent mac to go on sleep mode 
+  - I created [this workflow](https://github.com/andreatitolo/kya-alfred) for interacting through Alfred.
 - [Bartender](https://www.macbartender.com/) - to arrange menu bar icons.
 - [Syncthing](https://syncthing.net/) - to sync files between my computers and phone.
 - [Wireguard](https://www.wireguard.com/) - as VPN tunnel (to make Mullvad and NextDNS to work well in tandem)
@@ -106,14 +107,14 @@ Manually assembled PC:
 - [svgo](https://github.com/svg/svgo) - to quickly optimize svg from the command line.
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - to easily download online videos.
 - [Startpage](https://startpage.com) - as main search engine
-- [Librex](https://github.com/hnhx/librex/) - as backup search engine (using [this instance](https://search.ahwx.org))
+- [LibreY](https://github.com/hnhx/librex/) - as backup search engine (using [this instance](https://search.ahwx.org))
 
 ### Management
 
 - [Obsidian](https://obsidian.md/) - for note-taking and projects management.
 - [Todo.txt](https://github.com/todotxt/todo.txt) - methodology for todo lists.
 - [Pter](https://vonshednob.cc/pter/) - CLI tool for managing todo.txt.
-- [MountainDuck](https://mountainduck.io/) - for mounting cloud storage as local. drives
+- ~~[MountainDuck](https://mountainduck.io/) - for mounting cloud storage as local. drives~~ Still in search of a satisfying option.
 - [Raycast](https://www.raycast.com/) - to replace default Spotlight.
 - [Alfred](https://www.alfredapp.com/) - to replace default Spotlight + some workflows.
 - [Jabref](https://www.jabref.org/) - to manage my references and academic papers.
@@ -127,11 +128,15 @@ Manually assembled PC:
 
 - [Feedbin](https://feedbin.com/) - to manage my rss feeds.
 - [Netnewswire](https://netnewswire.com/) - to read rss feeds through Feedbin. [Read why](https://inessential.com/2023/02/20/on_not_taking_money_for_netnewswire).
+- Kindle Paperwhite - for reading ebooks (to be replaced sooner or later).
+- [Calibrew](https://calibre-ebook.com/) - to transfer ebook to the e-reader.
+- [Onyx Boox Note Air 2](https://onyxboox.com/boox_noteair2) - for reading and annotating academic papers.
 
 ### Browsers
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - hardened with [Arkenfox](https://github.com/arkenfox/user.js) for better privacy.
-- [Orion](https://browser.kagi.com/) - as a more private alternative to Safari, for some webistes that breaks with Arkenfox.
+- [Vivaldi](https://vivaldi.com/) - for website where it's more convenient to stay logged and when I need to keep tabs opened.
+- [Orion](https://browser.kagi.com/) - as a more private alternative to Safari, for some webistes that breaks with Arkenfox. Using it very little as today.
 
 ### Browser Extensions
 
@@ -144,6 +149,7 @@ Manually assembled PC:
 - [LanguageTool](https://languagetool.org/) - grammar and spellchecker.
 - [SimpleLogin](https://simplelogin.io/) - to manage email aliases.
 - [AnonAddy](https://anonaddy.com/) - to manage email aliases.
+- [Bypass Paywalls Clean](https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean) - self-explanatory. When the options are "subscribe to access the content or be profiled", this extension becomes a necessity as much as Ublock.
 
 ### iOS
 
@@ -151,7 +157,7 @@ Manually assembled PC:
 - [Reeder5](https://reederapp.com/) - to read feeds through Feedbin.
 - [Overcast](https://overcast.fm/) - to manage and listen podcasts subscriptions.
 - [Wireguard](https://www.wireguard.com/) - as VPN tunnel (to make Mullvad and NextDNS to work well in tandem).
-- [RaivoOTP](https://raivo-otp.com/) - to manage my 2FA codes.
+- ~~[RaivoOTP](https://raivo-otp.com/)~~ [2FAS Auth](https://2fas.com/)- to manage my 2FA codes.
 - [Strongbox](https://strongboxsafe.com/) - to manage my password using KeepassXC.
 - [2Do-txt](https://github.com/sodenn/2do-txt) - gui app for todo.txt.
 - [Mobius Sync](https://www.mobiussync.com/) - to use Syncthing in iOS.
