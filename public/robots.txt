@@ -6,6 +6,8 @@ User-Agent: adidxbot
 User-Agent: FacebookExternalHit
 User-Agent: Twitterbot
 User-Agent: LinkedInBot
+User-Agent: GPTBot
+User-agent: yandex
 Disallow: /
 
 User-Agent: *
