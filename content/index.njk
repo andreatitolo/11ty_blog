@@ -22,3 +22,9 @@ numberOfLatestPostsToShow: 3
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
 <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>{% endif %}
+
+<p>
+    <a href="https://fediring.net/previous?host=archaeoramblings.com">←</a>
+    <a href="https://fediring.net/">Fediring</a>
+    <a href="https://fediring.net/next?host=archaeoramblings.com">→</a>
+</p>
