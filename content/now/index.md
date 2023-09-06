@@ -23,11 +23,11 @@ Recently I am rarely reading one book at the time. However, I am currently readi
 
 ## Playing
 
-As with books, I rarely play only one videogame at the time. Since Diablo IV came out, I am mostly playing that (Rogue class). I put on hold Star Wars Jedi: Survivor, but I plan to finish it soon. Also sometimes I do a few matches here and there of Crusader Kings III and Hearts of Iron IV.
+As with books, I rarely play only one videogame at the time. I am basically playing only Baldurs Gate 3 these days, and waiting for Starfield. Also sometimes I do a few matches here and there of Crusader Kings III and Hearts of Iron IV.
 
 ## Watching
 
-I am actively watching Silo, which started slowly but now I am really enjoying it (and the slow pace of a weekly episode) and Ted Lasso. Less demanding but still highly enjoyable is Vinland Saga (Season 2). I put on hold Mr. Robot, but I plan to restart watching it soon.
+I am actively watching Ahsoka and Shrinking. Less demanding but still highly enjoyable is Vinland Saga (Season 2). I put on hold Mr. Robot, but I plan to restart watching it soon.
 
 ## Learning
 
