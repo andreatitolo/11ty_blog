@@ -1,6 +1,8 @@
 const path = require("path");
 const eleventyImage = require("@11ty/eleventy-img");
 
+
+
 module.exports = eleventyConfig => {
 	function relativeToInputPath(inputPath, relativeFilePath) {
 		let split = inputPath.split("/");
@@ -19,9 +21,12 @@ module.exports = eleventyConfig => {
 		let metadata = await eleventyImage(file, {
 			widths: [300, 600, "auto"],
 			formats,
+			sharpOptions: {
+				animated: true
+			},
 			outputDir: path.join(eleventyConfig.dir.output, "img"), // Advanced usage note: `eleventyConfig.dir` works here because we’re using addPlugin.
 		});
-
+		
 		// TODO loading=eager and fetchpriority=high
 		let imageAttributes = {
 			class: css, 
