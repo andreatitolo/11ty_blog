@@ -2,7 +2,7 @@
 title: ArchaeoFOSS2023
 description: My impressions on the archaeofoss conference
 date: 2023-12-19
-draft: true
+draft: false
 tags:
   - post
   - academia
