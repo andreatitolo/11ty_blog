@@ -37,7 +37,7 @@ Manually assembled PC:
 - [Nuphy Air 75](https://nuphy.com/products/air75) - a main low profile mechanical keyboard.
 - [Sennheiser HD559](https://www.sennheiser-hearing.com/it-IT/p/hd-559/) - as headphones.
 - [Samson Q2U](https://samsontech.com/products/microphones/usb-microphones/q2u/) - as external microphone.
-- [RODE A](https://rode.com/en/interfaces-and-mixers/ai-series/ai-1)1 - as audio interface for the microphone.
+- [RODE A1](https://rode.com/en/interfaces-and-mixers/ai-series/ai-1) - as audio interface for the microphone.
 - A computer stand for alternating between seating and standing while working.
 
 ## Software
@@ -51,7 +51,7 @@ Manually assembled PC:
 
 ### Writing
 
-- [MarkText](https://github.com/marktext/marktext) - for shorter individual markdown files.
+- ~~[MarkText](https://github.com/marktext/marktext)~~ [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) - for shorter individual markdown files.
 - [Quarto](https://quarto.org/) (in VSCodium) - for everything from text to presentations.
 - [Libreoffice](https://www.libreoffice.org/) - for doc and csv files.
 - [Onlyoffice](https://www.onlyoffice.com/) - because LO is still a pain to use on MacOS with larger documents.
@@ -67,8 +67,8 @@ Manually assembled PC:
 ### Coding
 
 - [VSCodium](https://vscodium.com/) - as my main IDE.
-- ~~[ITerm2](https://iterm2.com/)~~ [Kitty](https://sw.kovidgoyal.net/kitty/) - as terminal emulator (with [Victor Mono Nerd Font](https://www.programmingfonts.org/#victor-mono)).
-- [Z shell](https://www.zsh.org/) (+ ~~Oh My Zsh~~ [Zap](https://github.com/zap-zsh/zap) as plugin manager for some plugins).
+- ~~[ITerm2](https://iterm2.com/)~~ ~~[Kitty](https://sw.kovidgoyal.net/kitty/)~~ [WezTerm](https://wezfurlong.org/wezterm/) - as terminal emulator (with [Victor Mono Nerd Font](https://www.programmingfonts.org/#victor-mono)).
+- ~~[Z shell](https://www.zsh.org/) (+ ~~Oh My Zsh~~ [Zap](https://github.com/zap-zsh/zap) as plugin manager for some plugins)~~ [Fish](https://fishshell.com/) shell + [Fisher](https://github.com/jorgebucaran/fisher) for very few plugins.
 - ~~[Fig.io](https://fig.io/) - for interactive command suggestions~~.
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) - to quickly open a terminal at a specific folder location.
 - [Homebrew](https://brew.sh/) - as my package manager.
@@ -107,11 +107,12 @@ Manually assembled PC:
 - [svgo](https://github.com/svg/svgo) - to quickly optimize svg from the command line.
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - to easily download online videos.
 - [Startpage](https://startpage.com) - as main search engine
-- [LibreY](https://github.com/hnhx/librex/) - as backup search engine (using [this instance](https://search.ahwx.org))
+- ~~[LibreY](https://github.com/hnhx/librex/) - as backup search engine (using [this instance](https://search.ahwx.org))~~ Self-hosted [SearXNG](https://github.com/searxng/searxng) for backup and personal use.
 
 ### Management
 
-- [Obsidian](https://obsidian.md/) - for note-taking and projects management.
+- [Silverbullet](https://silverbullet.md/) - for note-taking and project management.
+- [Obsidian](https://obsidian.md/) - for personal tracking of movies/tv-shows.
 - [Todo.txt](https://github.com/todotxt/todo.txt) - methodology for todo lists.
 - [Pter](https://vonshednob.cc/pter/) - CLI tool for managing todo.txt.
 - ~~[MountainDuck](https://mountainduck.io/) - for mounting cloud storage as local. drives~~ Still in search of a satisfying option.
@@ -126,10 +127,10 @@ Manually assembled PC:
 
 ### Reading
 
-- [Feedbin](https://feedbin.com/) - to manage my rss feeds.
+- ~~[Feedbin](https://feedbin.com/)~~ [Miniflux](https://miniflux.app/) - to manage my rss feeds.
 - [Netnewswire](https://netnewswire.com/) - to read rss feeds through Feedbin. [Read why](https://inessential.com/2023/02/20/on_not_taking_money_for_netnewswire).
 - Kindle Paperwhite - for reading ebooks (to be replaced sooner or later).
-- [Calibrew](https://calibre-ebook.com/) - to transfer ebook to the e-reader.
+- [Calibre](https://calibre-ebook.com/) - to transfer ebook to the e-reader.
 - [Onyx Boox Note Air 2](https://onyxboox.com/boox_noteair2) - for reading and annotating academic papers.
 
 ### Browsers
@@ -154,7 +155,7 @@ Manually assembled PC:
 ### iOS
 
 - [Orion](https://browser.kagi.com) - as main browser.
-- [Reeder5](https://reederapp.com/) - to read feeds through Feedbin.
+- [Reeder5](https://reederapp.com/) - to read feeds through Miniflux.
 - [Overcast](https://overcast.fm/) - to manage and listen podcasts subscriptions.
 - [Wireguard](https://www.wireguard.com/) - as VPN tunnel (to make Mullvad and NextDNS to work well in tandem).
 - ~~[RaivoOTP](https://raivo-otp.com/)~~ [2FAS Auth](https://2fas.com/)- to manage my 2FA codes.
