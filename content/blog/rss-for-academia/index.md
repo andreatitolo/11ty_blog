@@ -9,6 +9,8 @@ tags:
   - RSS
 ---
 
+_[2023-12-20 Update](#2023-12-20-update) - Added a way to subscribe to Springer Link rss feed_
+
 As academics, one of our jobs (as with many other professions) is to keep up with current literature and discussions about methods, applications, and results in our field.
 
 I don't know about others, but given the number of journals out there and our general workload, it is difficult to keep up with everything. Also, I don't like having my email clogged with thousands of newsletters. 
@@ -51,6 +53,10 @@ It's really up to anyone's preference. What's more, I don't have to settle on on
 I also would refrain anyone from using the popular [feedly](https://feedly.com/) as reader of choice. I think readers should do one thing: keep it simple, give us access to the feeds, and not [evolve into a bloatware](https://erikgahner.dk/2022/goodbye-feedly/). Most importantly, a feed reader should not [instruct corporations on how to use its AI models for tracking and preventing protests and strikes](https://web.archive.org/web/20230329162149/https://blog.feedly.com/how-to-track-protests-in-your-market-with-feedly-ai/) ([another piece on this](https://newsletter.mollywhite.net/p/feedly-launches-strikebreaking-as)).
 
 A note: Not all publishers expose the feed directly (which is a shame), but you can always try to copy the URL of the journal homepage in your RSS reader. In fact, in most cases, you don't need to hunt for the RSS link at all. Most readers are usually capable of identifying hidden feeds, if present. Springer-Nature is the one I have the most difficulty getting an RSS feed from, and I don't think they offer it at all (at least on the journals I tried).
+
+### 2023-12-20 Update
+
+Apparently, there is still a way of getting rss feeds from [Springer Link](https://link.springer.com): Springer provides rss feed for their [Springer Open portal](https://www.springeropen.com), where you can get a feed just by inserting the link of the journal homepage in your feed reader. However, Springer.com does not clearly expose a feed. Nonetheless, if you go to a Journal Page (and in the all Volumes and Issues list), e.g. the [Journal of Archaeological Methods and Theory](https://link.springer.com/journal/10816/volumes-and-issues) you can obtain a feed by clicking on the banner "Search all Journal of Archaeological Method and Theory articles ->". Clicking this link will bring you to a search page, copy the link from the address bar, which will be something like `https://link.springer.com/search?query=&search-within=Journal&facet-journal-id=10816`. Now you just need to add a `.rss` after `search` and before the `?`. The resulting feed link will be like this: `https://link.springer.com/search.rss?query=&search-within=Journal&facet-journal-id=10816` and you will be able to use it in your rss feed of choice.
 
 ## Enjoy!
 
