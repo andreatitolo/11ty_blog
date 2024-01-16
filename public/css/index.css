@@ -523,11 +523,11 @@ figcaption > a {
 }
 
 blockquote {
-  margin-inline-start: 2rem;
+  margin-inline-start: 1rem;
   margin-inline-end: 0;
   margin-block: 2rem;
   padding: 0.4rem 0.8rem;
-  border-inline-start: 0.35rem solid var(--accent);
+  border-inline-start: 0.35rem solid var(--text-color-postlink-hover);
   color: var(--text-light);
   font-style: italic;
 }
