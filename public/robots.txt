@@ -8,6 +8,7 @@ User-Agent: Twitterbot
 User-Agent: LinkedInBot
 User-Agent: GPTBot
 User-agent: yandex
+User-agent: Google-Extended
 Disallow: /
 
 User-Agent: *
