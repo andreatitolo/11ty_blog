@@ -15,6 +15,14 @@ layout: layouts/base.njk
 </ul>
 
 <article>
+<details>
+	<summary>Table of Contents</summary>
+
+	{% if content | toc | safe %}
+	{{ content | toc | safe }}
+	{% endif %}
+	
+</details>
 {{ content | safe }}
 
 {% if modified %}
