@@ -26,6 +26,7 @@ This site uses the following:
 - Nunjucks
 - HTML ([Validated](https://validator.w3.org/nu/?doc=https://www.archaeoramblings.com/))
 - CSS ([Validated](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fwww.archaeoramblings.com&usermedium=all&vextwarning=&warning=1) - inspired by [Simple CSS](https://simplecss.org/))
+- RSS ([Validated](https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fwww.archaeoramblings.com))
 - Javascript
 - [Code Repository on Github](https://github.com/andreatitolo/11ty_blog)
 - Hosted on Netlify
