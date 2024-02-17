@@ -235,6 +235,10 @@ a:hover {
   color: var(--text-dark) /* !important; */
 }
 
+article > ul > li {
+  line-height: 1.8;
+}
+
 button,
 .button,
 a.button, /* extra specificity to override a */
@@ -755,4 +759,14 @@ a[href].header-anchor:focus,
   border:3px solid var(--text-dark);
   margin:var(--larger-margin);
   padding:1.5rem;
+ }
+
+ .toc {
+  font-size: 1.2rem;
+  background-color: var(--accent-bg);
+  border-radius: var(--standard-border-radius);
+ }
+
+ .toc > ul {
+  margin-top: 0;
  }
