@@ -437,6 +437,7 @@ section:last-child {
 
 details {
   padding: 0.7rem 1rem;
+  margin-top: 1rem;
 }
 
 summary {

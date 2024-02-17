@@ -15,6 +15,7 @@ layout: layouts/base.njk
 </ul>
 
 <article>
+{% if toc == true %}
 <details>
 	<summary>Table of Contents</summary>
 
@@ -23,6 +24,8 @@ layout: layouts/base.njk
 	{% endif %}
 	
 </details>
+{% else %}
+{% endif %}
 {{ content | safe }}
 
 {% if modified %}

@@ -3,6 +3,7 @@ title: A Tolkien's Exhibition and Italian Far-Right Propaganda
 description: A rant about fascists yet again ruining nice things
 date: 2024-01-24
 draft: false
+toc: true
 tags:
   - post
   - politics
