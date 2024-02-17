@@ -11,12 +11,12 @@ tags:
 toc: true
 ---
   
-Yep, it's one of those blog posts. However, **this is not a guide**, I think it would be beneficial if there were more guides for Zola, but that's a thing for another time.
+Yep, it's one of those blog posts. However, **this is not a guide**, I think it would be beneficial if there were more guides for Zola, but that's a thing for another time. The redesigned website is available at the old url: [https://www.andreatitolo.com](https://www.andreatitolo.com).
 
 **TLDR**
 - I wanted to change my bloated academic website and move away from the hugo/academic/blogdown stack.
 - I chose Zola as my static site generator.
-- The website is now faster, lighter, more sustainable and accessible.
+- [The website](https://www.andreatitolo.com) is now faster, lighter, more sustainable and accessible.
 
 ## Background
 
