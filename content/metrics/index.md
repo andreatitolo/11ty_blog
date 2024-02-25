@@ -52,3 +52,7 @@ This site uses the following:
 
 - Page content and the entire website is accessible with javascript turned off.
 - [Wave Report](https://wave.webaim.org/report#/https://www.archaeoramblings.com/)
+
+<a href="https://nonbot.org/pledged/view/9b6c0bad-9df6-4eb2-a35b-2e7bd1a7fa94" target="_blank">
+	<img style="height:128px;margin-top:10px;margin-bottom:10px;" src="https://nonbot.org/images/nonbot_pledged_logo.svg" alt="Human-made Content">
+</a>
