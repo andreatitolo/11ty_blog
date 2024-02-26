@@ -3,34 +3,37 @@ layout: layouts/home.njk
 numberOfLatestPostsToShow: 3
 ---
 
-<h1>{{metadata.title}}</h1>
-<p class="summary">This is the personal blog of a landscape archaeologist who likes gis, remote sensing, coding, technology and gaming.</p>
-
-<p class="info"> This is a <a href="/blog/considerations-on-this-blog">personal space</a>, in which I put down my ideas, personal thoughts and everything I become randomly obsessed about.</p>
-
-<p class= "info">If you want to read some wall of text about me or there website, there is an <a href="/about">about page</a>. I also maintain a more <a href="https://andreatitolo.com">academic-focused website</a>.</p>
-
-<hr> 
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
-
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
-
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>{% endif %}
-
-<p>
-    <a href="https://fediring.net/previous?host=archaeoramblings.com">←</a>
-    <a href="https://fediring.net/">Fediring</a>
-    <a href="https://fediring.net/next?host=archaeoramblings.com">→</a>
-</p>
-
-<p>
-    <a href="https://webring.archaeo.social/previous?host=archaeoramblings.com">←</a>
-    <a href="https://webring.archaeo.social/">Archaeoring</a> | <a href="https://webring.archaeo.social/random">Random</a>
-    <a href="https://webring.archaeo.social/next?host=archaeoramblings.com">→</a>
-</p>
+<article>
+    <h1>{{metadata.title}}</h1>
+    <p class="summary">This is the personal blog of a landscape archaeologist who likes gis, remote sensing, coding, technology and gaming.</p>
+    
+    <p class="info"> This is a <a href="/blog/considerations-on-this-blog">personal space</a>, in which I put down my ideas, personal thoughts and everything I become randomly obsessed about.</p>
+    
+    <p class= "info">If you want to read some wall of text about me or there website, there is an <a href="/about">about page</a>. I also maintain a more <a href="https://andreatitolo.com">academic-focused website</a>.</p>
+    
+    <hr>
+    {% set postsCount = collections.posts | length %}
+    {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+    <h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
+    
+    {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+    {% set postslistCounter = postsCount %}
+    {% include "postslist.njk" %}
+    
+    {% set morePosts = postsCount - numberOfLatestPostsToShow %}
+    {% if morePosts > 0 %}
+    <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>{% endif %}
+</article>
+<section>
+    <h2>Webrings</h2>
+    <p>
+        <a href="https://fediring.net/previous?host=archaeoramblings.com">←</a>
+        <a href="https://fediring.net/">Fediring</a> | <a href="https://fediring.net/random">Random</a>
+        <a href="https://fediring.net/next?host=archaeoramblings.com">→</a>
+    </p>
+    <p>
+        <a href="https://webring.archaeo.social/previous?host=archaeoramblings.com">←</a>
+        <a href="https://webring.archaeo.social/">Archaeoring</a> | <a href="https://webring.archaeo.social/random">Random</a>
+        <a href="https://webring.archaeo.social/next?host=archaeoramblings.com">→</a>
+    </p>
+</section>
