@@ -1,14 +1,24 @@
-User-Agent: ChatGPT-User
 User-Agent: AdsBot-Google
 User-Agent: Mediapartners-Google
 User-Agent: AdsBot-Google-Mobile
 User-Agent: adidxbot
+User-agent: FacebookBot
 User-Agent: FacebookExternalHit
 User-Agent: Twitterbot
 User-Agent: LinkedInBot
+User-agent: YouBot
+User-agent: Amazonbot
 User-Agent: GPTBot
+User-Agent: ChatGPT-User
 User-agent: yandex
+User-agent: anthropic-ai
 User-agent: Google-Extended
+User-agent: cohere-ai
+User-agent: Claude-Web
+User-agent: PerplexityBot
+User-agent: Bytespider
+User-agent: omgili
+User-agent: Omgilibot
 Disallow: /
 
 User-Agent: *
