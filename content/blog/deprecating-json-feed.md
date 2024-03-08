@@ -2,7 +2,7 @@
 title: Heads-up! deprecating json feed
 description: Deprecating one of the two feeds
 date: 2024-03-07
-draft: true
+draft: false
 tags:
   - blog
   - rss
