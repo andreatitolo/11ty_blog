@@ -5,7 +5,7 @@ date: 2024-03-07
 draft: false
 tags:
   - blog
-  - rss
+  - RSS
   - zola
 --- 
 
